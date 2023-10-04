@@ -1,0 +1,54 @@
+/* TaggableInput.css */
+.taggable-input-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 808px;
+    height: 65px;
+  }
+
+  .taggable-input-container:focus {
+    border-color: #616061;
+  }
+
+  .centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .taggable-textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #616061;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .popover {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 40%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    z-index: 1;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    height: 200px;
+    overflow-y: scroll;
+  }
+  
+  .suggestion {
+    display: flex;
+    padding: 5px 10px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .suggestion:hover {
+    background-color: #f0f0f0;
+  }
+  
