@@ -2,7 +2,6 @@
 
 Welcome to the documentation for the mention app. This guide provides instructions for setting up the development environment, running the app locally, and contributing to the project.
 
-
 2. Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -11,13 +10,11 @@ Node.js: Install Node.js
 npm (Node Package Manager): This comes with Node.js installation.
 Git: Install Git
 
-
 3. Getting Started
 
 To get started, clone the project repository to your local machine. Open your terminal and run the following command:
 
 git clone https://github.com/aditya441/squadcast.git
-
 
 Install Dependencies
 
@@ -41,7 +38,6 @@ The app will be accessible at http://localhost:3000 in your web browser.
 
 We welcome contributions from the community! Here's how you can contribute to this project:
 
-
 Fork the Repository
 First, fork the repository by clicking the "Fork" button at the top-right of the GitHub page. This creates a copy of the repository in your GitHub account.
 
@@ -61,4 +57,3 @@ When you're ready to submit your changes, push your branch to your forked reposi
 git push origin feature-name
 
 Visit the original repository on GitHub and click the "New Pull Request" button.
-
